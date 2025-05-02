@@ -23,19 +23,17 @@ const HomePage = () => {
                 <SEO title="Secop &amp; Second Opinion" />
                 <div className="wrapper home-default-wrapper">
                     <Header />
-                <div className="main-content site-wrapper-reveal">
-                <IntroContainer />
-                <Counter />
-                <IntroContainer />
-                      <Counter />
-                      <Whoweare />
-                      <Howitwork />
-                      <Team />
-                      <Marquee />
-                      <TestimonialContainer />
-                      <Whychooseus />
-                      <CallToAction />
-                      <BlogAccordion />
+                    <div className="main-content site-wrapper-reveal">
+                        <IntroContainer />
+                        <Counter />
+                        <Whoweare />
+                        <Howitwork />
+                        <Team />
+                        <Marquee />
+                        <TestimonialContainer />
+                        <Whychooseus />
+                        <CallToAction />
+                        <BlogAccordion />
                     </div>
                     <Footer />
                     <ScrollToTop />
