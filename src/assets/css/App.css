@@ -1,0 +1,24 @@
+/* Add this to your CSS file */
+.responsive-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 576px) {
+    .responsive-img {
+      height: 200px;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .responsive-img {
+      height: 300px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .responsive-img {
+      height: 400px;
+    }
+  }
+  

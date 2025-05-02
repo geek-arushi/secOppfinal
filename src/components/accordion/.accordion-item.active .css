@@ -1,0 +1,3 @@
+.accordion-item.active .custom-title span {
+    transform: rotate(180deg);
+}

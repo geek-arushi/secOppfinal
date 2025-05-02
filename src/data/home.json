@@ -1,0 +1,268 @@
+[
+    {
+        "headerInfo": [
+            {
+                "id": 1,
+                "icon": "icofont-clock-time",
+                "title": "working hours",
+                "info": "MON - FRI: 9.00 - 21.00"
+            },
+            {
+                "id": 2,
+                "icon": "icofont-ui-call",
+                "title": "hotline 24/7",
+                "info": "+0123-45-67-890"
+            },
+            {
+                "id": 3,
+                "icon": "icofont-envelope",
+                "title": "email us",
+                "info": "demo@yourmail.com"
+            }
+        ]
+    },
+    {
+        "slider": [
+            {
+                "id": 1,
+                "backgroundImage": "./img/slider/slide1.jpg",
+                "subTitle": "",
+                "title": ""
+            },
+            {
+                "id": 2,
+                "backgroundImage": "./img/slider/slide2.jpg",
+                "subTitle": "",
+                "title": ""
+            },
+            {
+                "id": 3,
+                "backgroundImage": "./img/slider/slide3.jpg",
+                "subTitle": "",
+                "title": ""
+            },
+            {
+                "id": 4,
+                "backgroundImage": "./img/slider/slide4.jpg",
+                "subTitle": "",
+                "title": ""
+            }
+        ]
+    },
+    {
+        "healthFeature": [
+            {
+                "id": 1,
+                "icon": "icon icofont-world-alt",
+                "title": "40+",
+                "subTitle": "US Physician"
+            },
+            {
+                "id": 2,
+                "icon": "",
+                "title": "20+",
+                "subTitle": "Average Years of Experience"
+            },
+            {
+                "id": 3,
+                "icon": "",
+                "title": "30+",
+                "subTitle": "Subspecialities"
+            }
+        ]
+    },
+    {
+        "medicalFeature": [
+            {
+                "id": 2,
+                "title": "We are focused on providing a seamless experience. Our platform provides:",
+                "content": ""
+            },
+            {
+                "id": 4,
+                "title": "",
+                "content": " •  Dedicated Care Coordinators"
+            },
+            {
+                "id": 4,
+                "title": "",
+                "content": " • Secure point to upload your medical records"
+            },
+            {
+                "id": 5,
+                "title": "",
+                "content": " • Video consultation with a US based physician"
+            },
+            {
+                "id": 6,
+                "title": "",
+                "content": " • A complete written and verbal treatment plan"
+            },
+            {
+                "id": 7,
+                "title": "",
+                "content": " • Recommendations to resources to help improve your outcome"
+            }
+        ]
+    },
+    {
+        "team": [
+            {
+                "id": 1,
+                "image": "./img/team/01.jpg",
+                "name": "Ashish Shah, MD",
+                "excerpt": "Foot and Ankle Orthopedic Surgeon Postdoctoral Fellowship at University of Pennsylvania Hospital"
+            },
+            {
+                "id": 2,
+                "image": "./img/team/02.jpg",
+                "name": "Amit Bhandarkar, MD",
+                "excerpt": "Spine Surgeon Fellowship in Pediatric Spine Surgery at New York University School of Medicine"
+            },
+            {
+                "id": 3,
+                "image": "./img/team/03.jpg",
+                "name": "Nilesh Chaudhari,MD",
+                "excerpt": "Orthopedic Surgeon and Oncologist Fellowship in Musculoskeletal Oncology at Rutgers New Jersey Medical School"
+            },
+            {
+                "id": 4,
+                "image": "./img/team/04.jpg",
+                "name": "Sakthivel Rajan Rajaram Manoharan,MD",
+                "excerpt": "Orthopedic Clinic at UAB Hospital Spine Surgeon Fellowship at Ohio State University Medical Center"
+            },
+            {
+                "id": 5,
+                "image": "./img/team/05.jpg",
+                "name": "Srinath Kamineni, MD",
+                "excerpt": "Shoulder and Elbow Surgeon Fellowship in Elbows at the Mayo ClinicAdditional"
+            },
+            {
+                "id": 6,
+                "image": "./img/team/06.jpg",
+                "name": "Viral V. Jain, MD",
+                "excerpt": "Pediatric Spine Surgeon Fellowship in Pediatric Orthopedics and Spine Surgery at Cincinnati Children’s Hospital Medical Center"
+            },
+
+            {
+                "id": 7,
+                "image": "./img/team/07.jpg",
+                "name": "Naranje Sameer, MD",
+                "excerpt": "Knee and Hip Surgeon Fellowship in Adult Hip and Knee Reconstruction at University of Minnesota"
+            },
+            {
+                "id": 8,
+                "image": "./img/team/08.jpg",
+                "name": "Khaleel Ashraf, MD, MBBS, DMRD, FACP",
+                "excerpt": "Oncologist Fellowship in Hematology/Oncology and Bone Marrow Transplant at UAB"
+            },
+            {
+                "id": 9,
+                "image": "./img/team/09.jpg",
+                "name": "Susmitha Nimmagadda, MD",
+                "excerpt": "Oncologist Fellowship in Hematology / Oncology at UAB"
+            },
+            {
+                "id": 10,
+                "image": "./img/team/10.jpg",
+                "name": "Naresh Bellam, MD, MBBS",
+                "excerpt": "Oncologist Fellowship in Hematology/Oncology at UAB"
+            }
+        ]
+    },
+    {
+        "testimonial": [
+            {
+                "id": 1,
+                "excerpt": "“The process was extremely streamlined and easy. From the moment we signed up, we were given updates on every step. My mom felt very much at ease talking to a U.S. physician who spoke her language. There were no communication barriers. We now have a much better idea on how to fight this disease.”",
+                "name": "Mohan Gupta",
+                "location": "Delhi"
+            },
+            {
+                "id": 2,
+                "excerpt": "“Facing a complex orthopedic issue, I sought a second opinion through SecOpp. The U.S. specialist provided a comprehensive evaluation and suggested alternative treatment options that were not previously considered. This experience has been invaluable in guiding my treatment decisions.”",
+                "name": "Anjali Verma",
+                "location": "Mumbai"
+            },
+            {
+                "id": 3,
+                "excerpt": "“After my cancer diagnosis, I was overwhelmed and uncertain about the proposed treatment plan. SecOpp connected me with a leading oncologist in the U.S. who reviewed my case thoroughly. The insights and recommendations I received have given me confidence and clarity moving forward.”",
+                "name": "Rajesh Kumar",
+                "location": "Bangalore"
+            }
+        ]
+    },
+    {
+        "pricing": [
+            {
+                "id": 1,
+                "classOption": "pricing-item item-one",
+                "title": "Trial",
+                "price": "<h2><sup>$</sup>5</h2><span class='period'>/ month</span>",
+                "excerpt": "Free with 14 days trial, then you can choose plan",
+                "pricingList": ["1 Cleaners", "Floor Cleaning", "2 Rooms"],
+                "btnClassOption": "btn-theme btn-border"
+            },
+            {
+                "id": 2,
+                "classOption": "pricing-item item-two",
+                "title": "Standard",
+                "price": "<h2><sup>$</sup>29</h2><span class='period'>/ month</span>",
+                "excerpt": "Free with 14 days trial, then you can choose plan",
+                "pricingList": [
+                    "3 Cleaners",
+                    "All House Cleaning",
+                    "All Rooms",
+                    "Equipment Cleaning"
+                ],
+                "btnClassOption": "btn-theme btn-border active"
+            },
+            {
+                "id": 3,
+                "classOption": "pricing-item item-three",
+                "title": "premium",
+                "price": "<h2><sup>$</sup>59</h2><span class='period'>/ month</span>",
+                "excerpt": "Free with 14 days trial, then you can choose plan",
+                "pricingList": ["2 Cleaners", "Normal Clean", "3 Rooms"],
+                "btnClassOption": "btn-theme btn-border"
+            },
+            {
+                "id": 4,
+                "classOption": "pricing-item item-four",
+                "title": "Ultimate",
+                "price": "<h2><sup>$</sup>99</h2><span class='period'>/ month</span>",
+                "excerpt": "Free with 14 days trial, then you can choose plan",
+                "pricingList": [
+                    "5 Cleaners",
+                    "All Office Cleaning",
+                    "All Rooms",
+                    "Equipments Cleaning",
+                    "Exterior Glasses"
+                ],
+                "btnClassOption": "btn-theme btn-border"
+            }
+        ]
+    },
+    {
+        "cases": [
+            {
+                "id": 1,
+                "image": "img/cases/01.jpg",
+                "name": "Natalie Huston",
+                "department": "Teeth Cleaning, High-tech materials"
+            },
+            {
+                "id": 2,
+                "image": "img/cases/02.jpg",
+                "name": "Angela Mayer",
+                "department": "Teeth Cleaning"
+            },
+            {
+                "id": 3,
+                "image": "img/cases/01.jpg",
+                "name": "Natalie Huston",
+                "department": "Teeth Cleaning, High-tech materials"
+            }
+        ]
+    }
+]

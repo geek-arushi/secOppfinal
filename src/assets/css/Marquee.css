@@ -1,0 +1,27 @@
+.marquee-container {
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap; /* Prevent line breaks */
+    width: 100%; /* Full width */
+    background-color: #000000; /* Background color */
+}
+
+.marquee {
+    display: inline-block; /* Inline block for horizontal scrolling */
+    animation: marquee 10s linear infinite; /* Animation for scrolling */
+}
+
+.infinity-logo {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 20px; /* Space between logos */
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+        transform: translateX(-100%); /* End at the left */
+    }
+}

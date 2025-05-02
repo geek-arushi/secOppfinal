@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "media": {
+            "rcImage": "./img/blog/s01.jpg",
+            "smallImage": "./img/blog/01.jpg",
+            "gridImage": "img/blog/r01.jpg",
+            "mediumImage": "./img/blog/m01.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Glioblastoma?",
+        "author": "Admin",
+        "date": "Decmber 14th, 2021",
+        "categories": ["Brain tumors"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p>Glioblastoma also known as GBM is a fast growing aggressive and fast-growing type of brain tumor that arises from astrocytes which are cells in the brain’s supportive tissue. They are difficult to treat and often recur despite therapy. It is common in age 45-70 years and is slightly more common in men</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Causes:</h4>",
+            "<p>Exact cause unknown but is linked to genetic mutations in brain cells <br>Risk factors includes Genetics, Radiation Exposure and family history</br></p>",
+            "<h4>Symptoms:</h4>",
+            "<p>Headaches (persistent and worsening)<br>Seizures<br>Nausea and vomiting<br>Personality change<br>Vision problem<br>Speech difficulties<br>Memory loss<br>Muscle weakness<br>Balance and coordination issues.</br></p>",
+            "<h4>How to Diagnose?</h4>",
+            "<p>The attending healthcare practitioner performs the physical examination and look for characteristic’s symptoms. On Neurological Exam, the healthcare practitioner will assess neurological function such as reflexes, coordination and mental status.</p>",
+            "<p>Imaging: MRI: most common and effective method to detect glioblastoma, CT scan: Used when MRI is not available or in the emergency situation<br>Biopsy: To confirm the diagnosis and determine tumor type.<br>Molecular testing: Genetic testing of tumor for specific mutation to guide treatment</br></p>",
+            "<h4>Treatment options:</h4>",
+            "<p>Surgery: To remove the tumor. Maximal safe resection. Remove as much of the tumor as possible without damaging healthy brain tissues<br>Radiation therapy: Post surgery radiation to target remaining tumor cells and reduce recurrence<br>Chemotherapy: drug used after surgery and radiation to kill tumor cells.<br>Clinical Trails: Ongoing research may offer access to experimental treatment and novel therapies.</br></p>"
+        ]
+    },
+    {
+        "id": 2,
+        "media": {
+            "rcImage": "./img/blog/s01.jpg",
+            "smallImage": "./img/blog/01.jpg",
+            "gridImage": "img/blog/r01.jpg",
+            "mediumImage": "./img/blog/m01.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Astrocytoma?",
+        "author": "Admin",
+        "date": "Decmber 14th, 2021",
+        "categories": ["Brain tumors"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p> It is Tumor of Astrocytes (Star shaped cell) in brain and spinal cord. The most aggressive form of astrocytoma is Glioblastoma.</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Grades:</h4>",
+            "<p>Grade I (Pilocytoma Astrocytoma): Slow growing and typically found in children<br>Grade II (Diffuse Astrocytoma): slow growing but can eventually become more aggressive.<br>Grade II (Diffuse Astrocytoma): slow growing but can eventually become more aggressive.<br>Grade IV(Glioblastoma): highly aggressive and the most common form in adult</br></p>",
+            "<h4>Causes:</h4>",
+            "<p>The exact cause is still unknown but genetic mutations in astrocyte cells can lead to tumor formation<br>Risk factor: Genetic, family history, previous radiation therapy.</p>",
+            "<h4>Symptoms:</h4>",
+            "<p>Headaches (persistent and worsening)<br>Seizures<br>Nausea and vomiting<br>Personality change<br>Vision problem<br>Speech difficulties<br>Memory loss<br>Muscle weakness<br>Balance and coordination issues.</br></p>",
+            "<p>Imaging: MRI: most common and effective method to detect glioblastoma, CT scan: Used when MRI is not available or in the emergency situation<br>Biopsy: To confirm the diagnosis and determine tumor type.<br>Molecular testing: Genetic testing of tumor for specific mutation to guide treatment</br></p>",
+            "<h4>Treatment options:</h4>",
+            "<p>Surgery: To remove the tumor. Maximal safe resection. Remove as much of the tumor as possible without damaging healthy brain tissues<br>Radiation therapy: Post surgery radiation to target remaining tumor cells and reduce recurrence<br>Chemotherapy: drug used after surgery and radiation to kill tumor cells.<br>Clinical Trails: Ongoing research may offer access to experimental treatment and novel therapies.</br></p>"
+        ]
+    },
+    {
+        "id": 3,
+        "media": {
+            "rcImage": "./img/blog/s01.jpg",
+            "smallImage": "./img/blog/01.jpg",
+            "gridImage": "img/blog/r01.jpg",
+            "mediumImage": "./img/blog/m01.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Meningioma?",
+        "author": "Admin",
+        "date": "Decmber 14th, 2021",
+        "categories": ["Brain tumors"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p> It is a type of tumor that forms in the meninges, the protective layers surrounding the brain and spinal cord. Most of the meningiomas are benign (non-cancerous), but some can be malignant. It is common in age between 40-70 years and is more common in women than men.</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Causes:</h4>",
+            "<p>The exact cause is still unknown but mutation in the cells of meninges can lead to meningioma. <br>Risk factors includes Genetics, Radiation Exposure and family history</br></p>",
+            "<h4>Symptoms:</h4>",
+            "<p>Headaches (persistent and worsening)<br>Seizures<br>Vision problems (e.g.: blurred vision or double vision)<br>Hearing loss<br>Weakness or numbness in limbs<br>Cognitive or memory difficulties.<br>Personality changes<br>Difficulty with balance or coordination.</br></p>",
+            "<h4>How to Diagnose?</h4>",
+            "<p>The attending healthcare professional will perform medical history and physical examination for evaluation of symptoms and neurological function.</p>",
+            "<p>Imaging tests: MRI: most preferred imaging method and CT scan: useful especially if MRI is not available<br>Biopsy: In some cases, a sample may be taken during surgery to conform the diagnosis.<br>Advanced Imaging: Techniques like angiography may be used for complex cases.</br></p>",
+            "<h4>Treatment options:</h4>",
+            "<p>Depends on its size, location, growth rate and symptoms.<br>Observation: For small slow growing asymptomatic tumors<br>Surgery: primary treatment to remove the tumor, especially if its causing symptoms<br>Radiation therapy: used after surgery if complete removal is not possible<br>Stereotactic radiosurgery: A focused radiation treatment for small or for tumor that are hard to reach.<br>Medication is rarely used but hormonal therapy or targeted drugs may be considered for specific cases.</br></p>"
+        ]
+    },
+    {
+        "id": 4,
+        "media": {
+            "rcImage": "./img/blog/s01.jpg",
+            "smallImage": "./img/blog/01.jpg",
+            "gridImage": "img/blog/r01.jpg",
+            "mediumImage": "./img/blog/m01.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Oligodendroglioma?",
+        "author": "Admin",
+        "date": "Decmber 14th, 2021",
+        "categories": ["Brain tumors"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p> It is rare, slow growing brain tumor that originates from oligodentrocytes, the cells that produce myelin sheath in the central nervous system. It is common in age between 30-50 years and is more common in men than women.</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Causes:</h4>",
+            "<p>Genetic mutation in oligodendrocytes. <br>Risk factors includes genetic conditions, radiation exposure.</br></p>",
+            "<h4>Signs and symptoms:</h4>",
+            "<p>Seizures (often the first symptoms)<br>Headache<br>Cognitive or memory problems<br>Personality changes<br>Weakness or numbness in limbs<br>Speech or vision difficulties.</br></p>",
+            "<h4>How to Diagnose?</h4>",
+            "<p>The attending healthcare professional performs medical history and neurological examination to Assess symptoms.</p>",
+            "<p>Imaging test: MRI; primary imaging method to detect the tumor and assess its size and location and CT scan: Sometimes used, if MRI is unavailable.<br>Biopsy: To conform the diagnosis and determine tumor grade<br>Genetic testing: Identifying specific mutations can help guide treatment and prognosis.</p>",
+            "<h4>Treatment options:</h4>",
+            "<p>Surgery: primary treatment to remove tumor as possible.<br>Radiation therapy: often used after surgery to target remaining tumor cells.<br>Chemotherapy: may be used for high grade tumor or in cases where the tumor cannot be fully removed.<br>Observation: for small, low grade to mass with minimal symptom regular monitoring may be recommended.</p>"
+        ]
+    },
+    {
+        "id": 5,
+        "media": {
+            "rcImage": "./img/blog/s01.jpg",
+            "smallImage": "./img/blog/01.jpg",
+            "gridImage": "img/blog/r01.jpg",
+            "mediumImage": "./img/blog/m01.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Ependymoma?",
+        "author": "Admin",
+        "date": "Decmber 14th, 2021",
+        "categories": ["Brain tumors"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p>It is a rare tumor that arises from ependymal cells lining the ventricles of the brain and the central canal of the spinal canal. It can occur at any age but most common in under children (where they often develop in brain) and in adults (more frequently arise in spinal cord). It has same incidence in both the sexes. </p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog'/>",
+            "<h4>Causes:</h4>",
+            "<p>The exact cause is still unknown but involves genetic mutation in ependymal cells.<br>Risk factors includes genetic and radiation Exposure.</br></p>"
+        ]
+    },
+    {
+        "id": 6,
+        "media": {
+            "rcImage": "./img/blog/s02.jpg",
+            "smallImage": "./img/blog/02.jpg",
+            "gridImage": "img/blog/r02.jpg",
+            "mediumImage": "./img/blog/m02.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Melanoma?",
+        "author": "",
+        "date": "",
+        "categories": ["Dermatology"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p>  Melanoma is a type of skin cancer that develops in melanocytes, which are cells that produce melanin; which is a natural pigment found in skin, hair and eyes and is responsible for the color of these areas. It is one of the most aggressive forms of skin cancer and the number one cause of death due to Skin cancer. It can develop anywhere on the body, but it is most common on sun exposed areas like back, legs, arms, face, neck and chest.</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Risk factors:</h4>",
+            "<p> - Fair complexion; primarily affects Caucasian patients, especially those with Inability to tan, easily sunburned, red hair and/or freckles or Numerous moles<br>- Sun exposure, especially for patients with a history of severe sunburn before the age of 14 years or Patients living in a sunny climate<br>Family history of melanoma (e.g., first-degree relative)<br>Increasing age<br>Patient under Immunosuppressant medications<br> Although most melanomas arise for the first time (de novo), they may arise from pre-existing nevi in up to 50% of cases. Any change in a nevus is concerning because it may indicate malignancy or malignant transformation. Look for color change, bleeding, ulceration, or a papule arising from the center of an existing nevus</p>",
+            "<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>",
+            "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"
+        ]
+    },
+    {
+        "id": 7,
+        "media": {
+            "rcImage": "./img/blog/s03.jpg",
+            "smallImage": "./img/blog/03.jpg",
+            "gridImage": "img/blog/r01.jpg",
+            "mediumImage": "./img/blog/m03.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Invasive Lobular Carcinoma (ILC)?",
+        "author": "Admin",
+        "date": "May 15th, 2021",
+        "categories": ["Breast"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Gathered Was Isn’t Fruitful Every</h4>",
+            "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>",
+            "<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>",
+            "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"
+        ]
+    },
+    {
+        "id": 8,
+        "media": {
+            "rcImage": "./img/blog/s01.jpg",
+            "smallImage": "./img/blog/03.jpg",
+            "gridImage": "img/blog/r02.jpg",
+            "mediumImage": "./img/blog/m04.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Esophageal cancer?",
+        "author": "Garza",
+        "date": "Feb 21th, 2021",
+        "categories": ["Digestive System"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Gathered Was Isn’t Fruitful Every</h4>",
+            "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>",
+            "<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>",
+            "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"
+        ]
+    },
+    {
+        "id": 9,
+        "media": {
+            "rcImage": "./img/blog/s02.jpg",
+            "smallImage": "./img/blog/03.jpg",
+            "gridImage": "img/blog/r01.jpg",
+            "mediumImage": "./img/blog/m05.jpg",
+            "largeImage": "img/blog/post-detail-01.jpg"
+        },
+        "title": "What is Thyroid cancer?",
+        "author": "Karen",
+        "date": "Apr 14th, 2021",
+        "categories": ["Endocrine System"],
+        "tags": ["Structure", "React", "Premium", "Clean", "WordPress"],
+        "body": [
+            "<p>Most times, ideacide happens without us even realizing it. A possible off-the-wall idea or solution appears like a blip and disappears without us even realizing. As a result, some of our best stuff is suppressed before even getting out into the world. Whether it’s because we’re too critical or because we recoil at the impending pain of change, the disruption of normalcy, self-censoring arises out of fear. Welsh novelist Sarah Waters sums it up eloquently: “Midway through writing a novel, I have regularly experienced moments of bowel-curdling terror, as I contemplate the drivel on the screen before me and see beyond it, in quick succession, the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed house, the divorce…” <br />We know self-censoring by many names. Carl Jung called it our “inner critic.” <br />Michael Ray and Rochelle Myers called it the “voice of judgment” in their classic book, in Business, based on a popular course they co-taught at Stanford University the derisive reviews, the friends’ embarrassment, the failing career, the dwindling income, the repossessed</p>",
+            "<img src='/img/blog/post-detail-02.jpg' alt='hope-Blog' />",
+            "<h4>Gathered Was Isn’t Fruitful Every</h4>",
+            "<p>Give void had the creature man evening two be for heaven won’t you’re may. Subdue him.Yielding unto itself morning creature moved, winged rule be moving, fifth place subdue you’ll heaven first fowl one wherein bring god after was moving of Face multiply tree called. Subdue first said made living tree you’re two beast, moved, every. Evening their us seas.</p>",
+            "<div class='blockquote-area'><blockquote class='blockquote-style'><p><span>“</span> Our greatest weakness lies in giving up. <br />The most certain way to succeed is always to try just one more time.</p></blockquote></div>",
+            "<p>Both of these assumptions, of course, could be entirely false. Self-censoring is firmly rooted in our experiences with mistakes in the past and not the present. The brain messages arising from those experiences can be deceptive.</p>"
+        ]
+    }
+]

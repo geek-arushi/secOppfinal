@@ -1,0 +1,252 @@
+/******************************** 
+ Offcanvas Menu Style
+ ********************************/
+
+body {
+    &.offcanvas-open {
+        overflow-y: hidden;
+        padding-right: 17px;
+
+        @media (max-width: 991px) {
+            padding-right: 0px;
+        }
+    }
+}
+
+.offcanvas-overlay {
+    &.active {
+        display: block;
+    }
+
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    background-color: $overlay-color;
+}
+
+// Offcanvas
+.offcanvas {
+    &.offcanvas-open {
+        transform: translateX(0);
+    }
+
+    &.offcanvas-mobile-menu {
+        right: auto;
+        left: 0;
+        transform: translateX(-100%);
+
+        &.offcanvas-open {
+            transform: translateX(0);
+        }
+    }
+
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: auto;
+    display: block;
+    overflow: hidden;
+    width: 400px;
+    height: 100vh;
+    background-color: $color-white;
+    box-shadow: none;
+    transform: translateX(100%);
+    transition: 0.5s ease-in-out;
+
+    @media (max-width: 480px) {
+        width: 300px;
+    }
+
+    .inner {
+        padding: 20px;
+
+        @media (max-width: 991px) {
+            overflow-y: scroll;
+            height: 660px;
+        }
+
+        @media (max-width: 767px) {
+            height: calc(100% - 30px);
+        }
+
+        @media (max-width: 480px) {
+            padding: 10px;
+        }
+    }
+
+    .title {
+        color: $color-dark;
+        font-weight: 700;
+    }
+
+    .offcanvas-close {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        text-indent: -9999px;
+        border: 0;
+        background-color: transparent;
+
+        &::after,
+        &::before {
+            position: absolute;
+            top: calc(50% - 1px);
+            left: 0;
+            width: 20px;
+            height: 2px;
+            content: "";
+            background-color: $color-dark;
+            transition: 0.5s ease-in-out;
+        }
+
+        &::after {
+            transform: rotate(-45deg);
+        }
+
+        &::before {
+            transform: rotate(45deg);
+        }
+
+        &:hover {
+            &::after {
+                transform: rotate(0deg);
+            }
+            &::before {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .offcanvas-menu {
+        ul {
+            li {
+                position: relative;
+                display: block;
+                line-height: 28px;
+
+                a {
+                    display: block;
+                    position: relative;
+                    padding: 8px 20px;
+                    text-transform: capitalize;
+                    border-top: 1px solid $border-color2;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: $color-dark;
+
+                    &:hover {
+                        color: #6d0101;
+                    }
+                }
+
+                .offcanvas-submenu {
+                    position: static;
+                    top: auto;
+                    display: none;
+                    visibility: visible;
+                    width: 100%;
+                    min-width: auto;
+                    transition: none;
+                    opacity: 1;
+                    box-shadow: none;
+
+                    li {
+                        line-height: inherit;
+                        position: relative;
+
+                        a {
+                            font-weight: 400;
+                            padding-left: 40px;
+                        }
+
+                        ul a {
+                            padding-left: 60px;
+                        }
+                    }
+                }
+
+                .menu-expand {
+                    position: absolute;
+                    z-index: 2;
+                    top: 0;
+                    right: 0;
+                    width: 24px;
+                    height: 44px;
+                    cursor: pointer;
+                    background-color: transparent;
+
+                    &::before,
+                    &::after {
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        width: 14px;
+                        height: 2px;
+                        content: "";
+                        background-color: $color-dark;
+                        transition: 0.5s ease-in-out;
+                    }
+
+                    &:hover {
+                        &::before,
+                        &::after {
+                            background-color: $theme-color;
+                        }
+                    }
+
+                    &::after {
+                        transform: rotate(90deg);
+                    }
+                }
+
+                &.active > .menu-expand {
+                    &::after {
+                        transform: rotate(0) scale(0.75);
+                    }
+                }
+            }
+        }
+    }
+
+    .offcanvas-social {
+        li {
+            display: inline-block;
+            margin: 0 10px 10px 0;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                line-height: 40px;
+                width: 40px;
+                height: 40px;
+                border: 2px solid transparent;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+// Offcanvas Menu Hover Fix
+.offcanvas-menu {
+    li {
+        &:hover {
+            .menu-expand {
+                &::after,
+                &::before {
+                    background: $theme-color;
+                }
+            }
+        }
+    }
+}
+
+/******************************** 
+ Offcanvas Menu Style END
+ ********************************/

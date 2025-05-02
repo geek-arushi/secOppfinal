@@ -1,0 +1,76 @@
+/******************************** 
+  Offcanvas Toggler Button 
+ ********************************/
+.mobile-menu-toggle {
+    align-self: center;
+    margin-top: -40px;
+
+    button {
+        background-color: transparent;
+        border: 10px;
+        margin-left: 400px;
+        margin-top: -30px;
+        align-items: center;
+    }
+
+    svg {
+        width: 50px;
+        height: 50px;
+
+        path {
+            transition: stroke-dashoffset 0.5s
+                    cubic-bezier(0.25, -0.25, 0.75, 1.25),
+                stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+            fill: none;
+            stroke-dashoffset: 0;
+            stroke-linecap: round;
+            stroke-width: 30px;
+
+            &#top,
+            &#bottom {
+                stroke-dasharray: 240px 950px;
+            }
+
+            &#middle {
+                stroke-dasharray: 240px 240px;
+            }
+        }
+    }
+
+    &.close {
+        svg {
+            path {
+                &#top,
+                &#bottom {
+                    stroke-dasharray: 650px;
+                    stroke-dashoffset: 650px;
+                }
+
+                &#middle {
+                    stroke-dasharray: 1px 220px;
+                    stroke-dashoffset: -115px;
+                }
+            }
+        }
+    }
+
+    svg {
+        path {
+            stroke: #fff; // Replaced $white with #fff, ensure $white is defined if used
+            @include min-screen(992) {
+                stroke: #fff;
+            }
+        }
+    }
+}
+
+.mobile-sticky.sticky {
+    svg {
+        path {
+            stroke: #000;
+        }
+    }
+}
+/******************************** 
+  Offcanvas Toggler Button END
+ ********************************/

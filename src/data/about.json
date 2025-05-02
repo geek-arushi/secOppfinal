@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "pageTitle": "SecOpp is a healthcare platform quickly connecting you to top-notch physicians practicing in America to answer your healthcare questions accurately and efficiently."
+    },
+    {
+        "id": 2,
+        "title": "Our Promise",
+        "excerpt": [
+            "<p class='text-block'>We promise the best healthcare available, all on one simple, efficient, and first-class platform. With world-class, specialized physicians all based in the United States, a streamlined route to speak directly with them, and swift response times, we assure you SecondOpinion has the expertise you need to move forward..</p>"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Vision",
+        "excerpt": [
+            "<p>At SecOpp, we are dedicated to providing a compassionate, state-of-the-art oncology care plan that prioritizes the well-being and dignity of every patient. We believe in personalized treatment plans tailored to each individual, supported by the latest research and technology. Our team of expert Oncologists, Orthopedic Surgeons and other healthcare professionals is committed to fostering hope, healing, and the highest quality of life possible for every patient and their loved ones. Our vision is to ensure high quality, accurate medical care for all by closing the gap between you and the best healthcare providers throughout the United States.</p>"
+        ]
+    },
+
+    {
+        "id": 4,
+        "gallery": {
+            "imageOne": "img/about/01.jpg",
+            "imageTwo": "img/about/02.jpg",
+            "imageThree": "img/about/03.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "address": [
+            {
+                "id": 1,
+                "title": "Ashish Shah, MD",
+                "list": ["Co-founder & CEO"]
+            },
+            {
+                "id": 2,
+                "title": "Purvi Shah",
+                "list": ["Co-founder & COO"]
+            }
+        ]
+    }
+]

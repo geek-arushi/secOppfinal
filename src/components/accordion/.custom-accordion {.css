@@ -1,0 +1,33 @@
+.custom-accordion {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.custom-title {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #333;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.custom-title:hover {
+    background-color: #e9ecef;
+}
+
+.custom-content {
+    padding: 20px;
+    line-height: 1.6;
+    color: #666;
+    background-color: white;
+}
+
+.accordion-container {
+    margin: 40px auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
