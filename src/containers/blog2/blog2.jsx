@@ -66,9 +66,14 @@ const MedicalArticles = () => {
         <>
             <Header />
             <div className="container mt-3 d-flex justify-content-end">
-                <Link to="https://secopp-admin.onrender.com/login" className="btn btn-outline-primary">
+                <a
+                    href="https://secopp-admin.onrender.com/login"
+                    className="btn btn-outline-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Login
-                </Link>
+                </a>
             </div>
             <div className="container my-5">
                 {/* Section 1: Cancer */}
