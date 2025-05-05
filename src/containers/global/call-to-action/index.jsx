@@ -13,7 +13,7 @@ const CallToAction = () => {
     // CSS styles defined within the component
     const styles = {
         dividerArea: {
-            // backgroundImage: url(${process.env.PUBLIC_URL}/img/shape/01.jpg),
+            backgroundImage: `url(${process.env.PUBLIC_URL}/img/shape/01.jpg)`,
             padding: "50px 0",
         },
         contentArea: {

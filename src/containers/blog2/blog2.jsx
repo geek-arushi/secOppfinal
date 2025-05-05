@@ -66,15 +66,32 @@ const MedicalArticles = () => {
         <>
             <Header />
             <div className="container mt-3 d-flex justify-content-end">
-                <a
-                    href="https://secopp-admin.onrender.com/login"
-                    className="btn btn-outline-primary"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Login
-                </a>
-            </div>
+    <a
+        href="https://secopp-admin.onrender.com/login"
+        className="btn custom-login-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Login
+    </a>
+</div>
+
+<style>
+    {`
+        .custom-login-btn {
+            color: #00213e;
+            border: 2px solid #00213e;
+            background-color: transparent;
+            transition: all 0.3s ease;
+        }
+
+        .custom-login-btn:hover {
+            background-color: #00213e;
+            color: #fd7d11;
+            border-color: #00213e;
+        }
+    `}
+</style>
             <div className="container my-5">
                 {/* Section 1: Cancer */}
                 <section className="mb-5">

@@ -27,6 +27,7 @@
     "react-whatsapp": "^0.3.0",
     "react-whatsapp-button": "^2.0.0",
     "sass": "^1.32.8",
+    "styled-components": "^6.1.17",
     "swiper": "^6.8.4",
     "yarn": "^1.22.22"
   },

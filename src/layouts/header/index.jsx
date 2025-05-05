@@ -120,78 +120,108 @@ const Header = () => {
                 </div>
 
                 {/* Mobile Sidebar Menu and Overlay */}
-                <div>
-                    {isMobileMenuOpen && (
-                        <div
-                            role="button"
-                            tabIndex={0}
-                            className="position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"
-                            style={{ zIndex: 1040 }}
-                            onClick={() => setIsMobileMenuOpen(false)}
-                            onKeyDown={(e) => {
-                                if (e.key === "Enter" || e.key === " ") {
-                                    setIsMobileMenuOpen(false);
-                                }
-                            }}
-                        ></div>
-                    )}
+                <>
+  <style>
+    {`
+      .custom-hover:hover {
+        background-color: #fd7d11 !important;
+        color: white !important;
+      }
 
-                    <div
-                        className={`position-fixed top-0 end-0 h-100 bg-white shadow-lg transition`}
-                        style={{
-                            width: "260px",
-                            zIndex: 1050,
-                            transform: isMobileMenuOpen ? "translateX(0)" : "translateX(100%)",
-                            transition: "transform 0.3s ease-in-out",
-                        }}
-                    >
-                        <button
-                            onClick={() => setIsMobileMenuOpen(false)}
-                            className="btn btn-link position-absolute top-0 end-0 m-3 text-dark"
-                        >
-                            <i className="bi bi-x-lg fs-4">X</i>
-                        </button>
+      .custom-hover-orange {
+        background-color: #fd7d11 !important;
+        color: white !important;
+      }
 
-                        <ul className="list-unstyled text-center mt-5 px-3">
-                            <li className="mb-3">
-                                <a href="/" className="btn btn-outline-dark w-100">
-                                    HOME
-                                </a>
-                            </li>
-                            <li className="mb-3">
-                                <a href="/service" className="btn btn-outline-dark w-100">
-                                    SERVICES
-                                </a>
-                            </li>
-                            <li className="mb-3">
-                                <a href="/blog" className="btn btn-outline-dark w-100">
-                                    BLOG & NEWS
-                                </a>
-                            </li>
-                            <li className="mb-3">
-                                <a href="/how-it-works" className="btn btn-outline-dark w-100">
-                                    HOW ITS WORK
-                                </a>
-                            </li>
-                            <li className="mb-3">
-                                <a href="/contact" className="btn btn-outline-dark w-100">
-                                    CONTACT
-                                </a>
-                            </li>
-                            <li className="mb-3">
-                                <a href="/faq" className="btn btn-outline-dark w-100">
-                                    FAQ
-                                </a>
-                            </li>
-                            <li>
-                            <a href="/" className="btn btn-outline-dark w-100">
-                                    LOGIN / SIGNUP
-                                </a>
+      .custom-hover-orange:hover {
+        background-color: white !important;
+        color: #fd7d11 !important;
+        border: 1px solid orange !important;
+      }
 
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      .bg-primary {
+        background-color: #00213e !important; /* Bootstrap primary blue */
+      }
+    `}
+  </style>
+
+  <div>
+    {isMobileMenuOpen && (
+      <div
+        role="button"
+        tabIndex={0}
+        className="position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"
+        style={{ zIndex: 1040 }}
+        onClick={() => setIsMobileMenuOpen(false)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            setIsMobileMenuOpen(false);
+          }
+        }}
+      ></div>
+    )}
+
+    <div
+      className={`position-fixed top-0 end-0 h-100 bg-primary shadow-lg transition`}
+      style={{
+        width: "260px",
+        zIndex: 1050,
+        transform: isMobileMenuOpen ? "translateX(0)" : "translateX(100%)",
+        transition: "transform 0.3s ease-in-out",
+      }}
+    >
+      <button
+        onClick={() => setIsMobileMenuOpen(false)}
+        className="btn btn-link position-absolute top-0 end-0 m-3 text-white"
+      >
+        <i className="bi bi-x-lg fs-4">X</i>
+      </button>
+
+      <ul className="list-unstyled text-center mt-5 px-3">
+        <li className="mb-3">
+          <a href="/" className="btn w-100 text-black bg-white border-0 custom-hover">
+            HOME
+          </a>
+        </li>
+        <li className="mb-3">
+          <a href="/service" className="btn w-100 text-black bg-white border-0 custom-hover">
+            SERVICES
+          </a>
+        </li>
+        <li className="mb-3">
+          <a href="/blog" className="btn w-100 text-black bg-white border-0 custom-hover">
+            BLOG & NEWS
+          </a>
+        </li>
+        <li className="mb-3">
+          <a href="/how-it-works" className="btn w-100 text-black bg-white border-0 custom-hover">
+            HOW IT WORKS
+          </a>
+        </li>
+        <li className="mb-3">
+          <a href="/contact" className="btn w-100 text-black bg-white border-0 custom-hover">
+            CONTACT
+          </a>
+        </li>
+        <li className="mb-3">
+          <a href="/faq" className="btn w-100 text-black bg-white border-0 custom-hover">
+            FAQ
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://secopp.jotform.com/app/242645877128972"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn w-100 border-0 custom-hover-orange"
+          >
+            LOGIN / SIGNUP
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</>
             </header>
 
             <MenuOverlay show={ofcanvasShow} />
