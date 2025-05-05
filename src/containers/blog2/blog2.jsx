@@ -72,7 +72,7 @@ const MedicalArticles = () => {
         target="_blank"
         rel="noopener noreferrer"
     >
-        Login
+        Admin Login
     </a>
 </div>
 
