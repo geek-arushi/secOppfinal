@@ -2,15 +2,18 @@
   Offcanvas Toggler Button 
  ********************************/
 .mobile-menu-toggle {
-    align-self: center;
-    margin-top: -40px;
+    align-self: flex-end; /* Keep this to align to the right */
+    margin-top: -50px;
+    margin-right: -150px; /* Add right margin to push it further right */
 
     button {
         background-color: transparent;
         border: 10px;
-        margin-left: 400px;
-        margin-top: -30px;
+        margin-left: 0;
+        margin-top: -20px;
         align-items: center;
+        position: relative;
+        right: 15px; /* Keep this as well */
     }
 
     svg {
