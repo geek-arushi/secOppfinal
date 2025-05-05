@@ -30,67 +30,72 @@ const MedicalArticles = () => {
             {blogsToRender.map((blog) => (
                 <div key={blog._id} className="col-md-4 mb-4" data-category={blog.blogCategory}>
                     <Link to={`/blog-details/${blog._id}`} className="text-decoration-none text-dark">
-                    <div className="card h-100">
-                        <div className="row g-0">
-                            <div className="col-md-4">
-                                <img
-                                    src={blog.blogCardImage}
-                                    className="img-fluid rounded-start"
-                                    alt="Blog Thumbnail"
-                                />
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <p className="card-text fw-bold text-truncate">
-                                        {blog.blogCardTitle}
-                                    </p>
-                                    <small className="text-body-secondary">
-                                        <FaFileLines className="mr-2" /> {blog.blogCategory} | {blog.blogCardDescription}
-                                    </small>
-                                    <br />
-                                    <small className="text-body-secondary">
-                                        <FaComment className="mr-2" /> {blog.likes}
-                                    </small>
+                        <div className="card h-100">
+                            <div className="row g-0">
+                                <div className="col-md-4">
+                                    <img
+                                        src={blog.blogCardImage}
+                                        className="img-fluid rounded-start"
+                                        alt="Blog Thumbnail"
+                                    />
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <p className="card-text fw-bold text-truncate">
+                                            {blog.blogCardTitle}
+                                        </p>
+                                        <small className="text-body-secondary">
+                                            <FaFileLines className="mr-2" /> {blog.blogCategory} | {blog.blogCardDescription}
+                                        </small>
+                                        <br />
+                                        <small className="text-body-secondary">
+                                            <FaComment className="mr-2" /> {blog.likes}
+                                        </small>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </Link>
+                    </Link>
                 </div>
-    ))
-}
+            ))
+            }
         </div >
     );
 
-return (
-    <>
-        <Header />
-        <div className="container my-5">
-            {/* Section 1: Cancer */}
-            <section className="mb-5">
-                <h2 className="h4 font-weight-bold mb-4">Latest From Cancer (Oncology)</h2>
-                {renderBlogCards(cancerBlogs)}
-                <div className="d-flex justify-content-start mt-4">
-                    <Link to="/blog-category/cancer" className="btn btn-primary" style={{ backgroundColor: "#00213e" }}>
-                        Know More <FaArrowRight className="ml-2" />
-                    </Link>
-                </div>
-            </section>
+    return (
+        <>
+            <Header />
+            <div className="container mt-3 d-flex justify-content-end">
+                <Link to="https://secopp-admin.onrender.com/login" className="btn btn-outline-primary">
+                    Login
+                </Link>
+            </div>
+            <div className="container my-5">
+                {/* Section 1: Cancer */}
+                <section className="mb-5">
+                    <h2 className="h4 font-weight-bold mb-4">Latest From Cancer (Oncology)</h2>
+                    {renderBlogCards(cancerBlogs)}
+                    <div className="d-flex justify-content-start mt-4">
+                        <Link to="/blog-category/cancer" className="btn btn-primary" style={{ backgroundColor: "#00213e" }}>
+                            Know More <FaArrowRight className="ml-2" />
+                        </Link>
+                    </div>
+                </section>
 
-            {/* Section 2: Orthopedic */}
-            <section className="mb-5">
-                <h2 className="h4 font-weight-bold mb-4">Latest From Orthopedic</h2>
-                {renderBlogCards(orthoBlogs)}
-                <div className="d-flex justify-content-start mt-4">
-                    <Link to="/blog-category/orthopedic" className="btn btn-primary" style={{ backgroundColor: "#00213e" }}>
-                        Know More <FaArrowRight className="ml-2" />
-                    </Link>
-                </div>
-            </section>
-        </div>
-        <Footer />
-    </>
-);
+                {/* Section 2: Orthopedic */}
+                <section className="mb-5">
+                    <h2 className="h4 font-weight-bold mb-4">Latest From Orthopedic</h2>
+                    {renderBlogCards(orthoBlogs)}
+                    <div className="d-flex justify-content-start mt-4">
+                        <Link to="/blog-category/orthopedic" className="btn btn-primary" style={{ backgroundColor: "#00213e" }}>
+                            Know More <FaArrowRight className="ml-2" />
+                        </Link>
+                    </div>
+                </section>
+            </div>
+            <Footer />
+        </>
+    );
 };
 
 export default MedicalArticles;

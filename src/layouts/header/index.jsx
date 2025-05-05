@@ -50,7 +50,7 @@ const Header = () => {
                                     <Logo image={`${process.env.PUBLIC_URL}/img/logo.png`} />
                                 </div>
                                 <Button
-                                    path="https://secopp-admin.onrender.com/login"
+                                    path="https://secopp.jotform.com/app/242645877128972"
                                     classOption="book-now-btn d-none d-sm-inline-block d-lg-none"
                                     text="LogIn / SignUp"
                                 />
@@ -85,7 +85,7 @@ const Header = () => {
                                 <div className="d-flex flex-wrap align-items-center justify-content-between">
                                     <MainMenu classOption="small-menu" />
                                     <Button
-                                        path="https://secopp-admin.onrender.com/login"
+                                        path="https://secopp.jotform.com/app/242645877128972"
                                         classOption="book-now-btn"
                                         text="LogIn / SignUp"
                                     />
