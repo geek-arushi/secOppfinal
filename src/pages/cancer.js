@@ -12,7 +12,7 @@ const cancer = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="secopp – Service" />
+                <SEO title="secopp – Cancer" />
                 <div className="wrapper">
                     <Header />
                     <div className="main-content site-wrapper-reveal">
