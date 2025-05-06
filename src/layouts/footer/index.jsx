@@ -12,6 +12,7 @@ const Footer = () => {
                         image={`${process.env.PUBLIC_URL}/img/logo-dark.png`}
                     />
                     <p>
+                        <br></br>
                         SECOPP connects patients in India with a trusted network
                         of top US medical professionals for second opinions.
                     </p>
