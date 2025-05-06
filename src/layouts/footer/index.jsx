@@ -43,6 +43,15 @@ const Footer = () => {
                         <li>
                             <Link to="/terms">Terms & Conditions</Link>
                         </li>
+                        <li>
+                            <a
+                                href="https://secopp-admin.onrender.com/login"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Admin Login
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="footer-section social-section">

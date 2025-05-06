@@ -11,6 +11,7 @@ const MedicalArticles = () => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
+        // axios.get("http://localhost:8000/api/blog")
         axios.get("https://secopp-admin.onrender.com/api/blog")
             .then((res) => {
                 setBlogs(res.data);
@@ -47,10 +48,6 @@ const MedicalArticles = () => {
                                         <small className="text-body-secondary">
                                             <FaFileLines className="mr-2" /> {blog.blogCategory} | {blog.blogCardDescription}
                                         </small>
-                                        <br />
-                                        <small className="text-body-secondary">
-                                            <FaComment className="mr-2" /> {blog.likes}
-                                        </small>
                                     </div>
                                 </div>
                             </div>
@@ -65,16 +62,6 @@ const MedicalArticles = () => {
     return (
         <>
             <Header />
-            <div className="container mt-3 d-flex justify-content-end">
-                <a
-                    href="https://secopp-admin.onrender.com/login"
-                    className="btn btn-outline-primary"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Login
-                </a>
-            </div>
             <div className="container my-5">
                 {/* Section 1: Cancer */}
                 <section className="mb-5">
