@@ -18,7 +18,7 @@ const ContactPage = () => {
                     <div className="main-content site-wrapper-reveal">
                         <PageTitleContainer
                             image="img/photos/contact-bg1.jpg"
-                            subTitle="We Always Ready Helps you"
+                            subTitle="WWe are always ready to help you"
                             title="Contact Us"
                         />
                         {/* <GoogleMapContainer classOption="contact-map-area" /> */}
