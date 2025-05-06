@@ -2,15 +2,21 @@
   Offcanvas Toggler Button 
  ********************************/
 .mobile-menu-toggle {
-    align-self: center;
-    margin-top: -40px;
+    align-self: flex-end;
+    /* Keep this to align to the right */
+    margin-top: -50px;
+    margin-right: -180px;
+    /* Add right margin to push it further right */
 
     button {
         background-color: transparent;
         border: 10px;
-        margin-left: 400px;
-        margin-top: -30px;
+        margin-left: 0;
+        margin-top: -20px;
         align-items: center;
+        position: relative;
+        right: 15px;
+        /* Keep this as well */
     }
 
     svg {
@@ -18,8 +24,7 @@
         height: 50px;
 
         path {
-            transition: stroke-dashoffset 0.5s
-                    cubic-bezier(0.25, -0.25, 0.75, 1.25),
+            transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25),
                 stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
             fill: none;
             stroke-dashoffset: 0;
@@ -40,6 +45,7 @@
     &.close {
         svg {
             path {
+
                 &#top,
                 &#bottom {
                     stroke-dasharray: 650px;
@@ -57,6 +63,7 @@
     svg {
         path {
             stroke: #fff; // Replaced $white with #fff, ensure $white is defined if used
+
             @include min-screen(992) {
                 stroke: #fff;
             }
@@ -71,6 +78,7 @@
         }
     }
 }
+
 /******************************** 
   Offcanvas Toggler Button END
  ********************************/

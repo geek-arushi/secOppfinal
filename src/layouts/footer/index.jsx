@@ -12,6 +12,7 @@ const Footer = () => {
                         image={`${process.env.PUBLIC_URL}/img/logo-dark.png`}
                     />
                     <p>
+                        <br></br>
                         SECOPP connects patients in India with a trusted network
                         of top US medical professionals for second opinions.
                     </p>
@@ -38,10 +39,12 @@ const Footer = () => {
                             <Link to="/faq">FAQ</Link>
                         </li>
                         <li>
-                            <Link to="/privacy-policy">PrivacyPolicy</Link>
+                            <Link to="/privacy-policy">Privacy Policy</Link>
                         </li>
                         <li>
-                            <Link to="/terms">Terms & Conditions</Link>
+                            <Link to="/terms-and-conditions">
+                                Terms & Conditions
+                            </Link>
                         </li>
                         <li>
                             <a
@@ -59,23 +62,23 @@ const Footer = () => {
                     <p>Stay connected with our latest updates!</p>
                     <div className="social-icons">
                         <SocialIcon
-                            path="https://facebook.com"
+                            path="https://www.facebook.com/profile.php?id=61573080015519"
                             icon="icofont-facebook"
                         />
                         <SocialIcon
-                            path="https://instagram.com"
+                            path="https://www.instagram.com/secopp_com"
                             icon="icofont-instagram"
                         />
                         <SocialIcon
-                            path="https://twitter.com"
+                            path="https://x.com/SecOpp_Com"
                             icon="icofont-twitter"
                         />
                         <SocialIcon
-                            path="https://linkedin.com"
+                            path="https://www.linkedin.com/company/104032006/admin/dashboard/"
                             icon="icofont-linkedin"
                         />
                         <SocialIcon
-                            path="https://youtube.com"
+                            path="https://www.youtube.com/@SecOppOfficial"
                             icon="icofont-youtube"
                         />
                     </div>

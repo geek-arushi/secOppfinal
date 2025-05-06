@@ -11,7 +11,7 @@ const Howitworkpage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Second Opinion – About Us - video doctor usa - online doctor united states " />
+                <SEO title="Second Opinion – How it works - video doctor usa - online doctor united states " />
                 <div className="wrapper">
                     <Header />
                     <div className="main-content site-wrapper-reveal">

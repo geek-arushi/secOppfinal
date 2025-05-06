@@ -12,7 +12,7 @@ const Orthopedics = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="secopp – Service" />
+                <SEO title="secopp – Othopedics" />
                 <div className="wrapper">
                     <Header />
                     <div className="main-content site-wrapper-reveal">

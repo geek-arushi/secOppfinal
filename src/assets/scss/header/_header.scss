@@ -159,8 +159,8 @@
     text-decoration: none;
 
     &:hover {
-        background: #00213e;
-        color: #fff;
+        background: #ffffff;
+        color: #000000;
     }
 
     @include max-screen(991) {
@@ -232,7 +232,7 @@
             left: 0;
             width: 0%;
             height: 2px;
-            background: #fff;
+            background: #fd7d11;
             content: "";
             transition: all 0.3s;
         }
@@ -332,7 +332,7 @@
             &.active,
             &:hover {
                 .main-menu-link {
-                    color: #00213e;
+                    color: #fd7d11;
 
                     &::before {
                         width: 100%;
