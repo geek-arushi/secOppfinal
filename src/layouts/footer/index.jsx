@@ -41,7 +41,9 @@ const Footer = () => {
                             <Link to="/privacy-policy">Privacy Policy</Link>
                         </li>
                         <li>
-                            <Link to="/terms">Terms & Conditions</Link>
+                            <Link to="/terms-and-conditions">
+                                Terms & Conditions
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -50,23 +52,23 @@ const Footer = () => {
                     <p>Stay connected with our latest updates!</p>
                     <div className="social-icons">
                         <SocialIcon
-                            path="https://facebook.com"
+                            path="https://www.facebook.com/profile.php?id=61573080015519"
                             icon="icofont-facebook"
                         />
                         <SocialIcon
-                            path="https://instagram.com"
+                            path="https://www.instagram.com/secopp_com"
                             icon="icofont-instagram"
                         />
                         <SocialIcon
-                            path="https://twitter.com"
+                            path="https://x.com/SecOpp_Com"
                             icon="icofont-twitter"
                         />
                         <SocialIcon
-                            path="https://linkedin.com"
+                            path="https://www.linkedin.com/company/104032006/admin/dashboard/"
                             icon="icofont-linkedin"
                         />
                         <SocialIcon
-                            path="https://youtube.com"
+                            path="https://www.youtube.com/@SecOppOfficial"
                             icon="icofont-youtube"
                         />
                     </div>
