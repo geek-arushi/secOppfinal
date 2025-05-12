@@ -47,11 +47,6 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li>
-<<<<<<< HEAD
-                            <Link to="/https://secopp-admin.onrender.com/login">
-                                login
-                            </Link>
-=======
                             <a
                                 href="https://secopp-admin.onrender.com/login"
                                 target="_blank"
@@ -59,7 +54,6 @@ const Footer = () => {
                             >
                                 Admin Login
                             </a>
->>>>>>> 4307e003b57794793f68dd80b7ecff1e6e9a8b29
                         </li>
                     </ul>
                 </div>
