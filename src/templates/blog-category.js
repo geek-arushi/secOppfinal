@@ -14,6 +14,7 @@ const BlogCategory = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        // axios.get("http://localhost:8000/api/blog")
         axios.get("https://secopp-admin.onrender.com/api/blog")
             .then((res) => {
                 // Filter the blogs based on category slug (Cancer or Orthopedic)
@@ -50,10 +51,6 @@ const BlogCategory = () => {
                             <p className="card-text">{blog.blogCardDescription}</p>
                             <small className="text-body-secondary">
                                 <FaFileLines className="mr-2" /> {blog.blogCategory}
-                            </small>
-                            <br />
-                            <small className="text-body-secondary">
-                                <FaComment className="mr-2" /> {blog.likes}
                             </small>
                             <div className="d-flex justify-content-end mt-2">
                                 <a href={`/blog-details/${blog._id}`} className="btn btn-primary">

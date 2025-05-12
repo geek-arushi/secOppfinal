@@ -24,6 +24,7 @@ function ContactForms() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            const timestamp = new Date().toLocaleString();
             const params = new URLSearchParams();
             params.append("FirstName", formData.firstName);
             params.append("LastName", formData.lastName);
@@ -31,9 +32,10 @@ function ContactForms() {
             params.append("Phone", formData.phone);
             params.append("Subject", formData.subject);
             params.append("Helpyou", formData.helpyou);
+            params.append("Timestamp", timestamp);
 
             await axios.post(
-                "https://script.google.com/macros/s/AKfycbzit0oZus6tl2-aYFcPO-Tvou_ifWyVM5DcIO0kD8JZ9AzpGnE5ETIC8yu2PvafeDMHlw/exec", // 🔴 Replace with your Web App URL
+                "https://script.google.com/macros/s/AKfycbzjK_3iQmMSV3WRqLb9KgNUG8XhwK3dPT-S42DPUiFg-DeCkyVFaMgfOUVLrKMoy7O3KA/exec", // 🔴 Replace with your Web App URL
                 params
             );
 
@@ -47,9 +49,7 @@ function ContactForms() {
     return (
         <div className="bg-light d-flex align-items-center justify-content-center min-vh-75 p-5">
             <div
-                className={`bg-white ${
-                    submitted ? "p-3" : "p-5"
-                } rounded shadow-lg w-100`}
+                className={`bg-white ${submitted ? "p-3" : "p-5"} rounded shadow-lg w-100`}
                 style={{ maxWidth: "600px" }}
             >
                 {submitted ? (
@@ -103,8 +103,7 @@ function ContactForms() {
 
                         <div className="mb-3">
                             <label className="form-label" htmlFor="phone">
-                                Phone Number{" "}
-                                <span className="text-danger">*</span>
+                                Phone Number <span className="text-danger">*</span>
                             </label>
                             <input
                                 className="form-control"
@@ -132,8 +131,7 @@ function ContactForms() {
 
                         <div className="mb-3">
                             <label className="form-label" htmlFor="helpyou">
-                                How can we help you?{" "}
-                                <span className="text-danger">*</span>
+                                How can we help you? <span className="text-danger">*</span>
                             </label>
                             <textarea
                                 className="form-control"
