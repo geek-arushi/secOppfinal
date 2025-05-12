@@ -120,7 +120,7 @@ const Header = () => {
                 <div className="d-flex flex-wrap align-items-center justify-content-between">
                   <MainMenu classOption="small-menu" />
                   <Button
-                    path="https://secopp.jotform.com/app/242645877128972"
+                    path="https://app.secopp.com/login/"
                     classOption="book-now-btn"
                     text="LogIn / SignUp"
                   />
@@ -145,7 +145,7 @@ const Header = () => {
                   </div>
                   <MainMenu classOption="small-menu" />
                   <Button
-                    path="https://secopp.jotform.com/app/242645877128972"
+                    path="https://app.secopp.com/login/"
                     classOption="book-now-btn"
                     text="LogIn / SignUp"
                   />
